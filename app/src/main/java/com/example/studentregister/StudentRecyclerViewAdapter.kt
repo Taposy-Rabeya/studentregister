@@ -14,6 +14,9 @@ class StudentRecyclerViewAdapter(
 
     private val studentList = ArrayList<Student>()
 
+
+
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StudentViewHolder {
        val binding = ListItemBinding.inflate(LayoutInflater.from(parent.context),parent, false)
         return StudentViewHolder(binding)

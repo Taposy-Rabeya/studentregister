@@ -18,6 +18,9 @@ class MainActivity : AppCompatActivity() {
     private lateinit var adapter: StudentRecyclerViewAdapter
     private var isListItemClicked = false
 
+
+
+
     private lateinit var selectedStudent: Student
 
     override fun onCreate(savedInstanceState: Bundle?) {
